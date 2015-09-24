@@ -1,5 +1,6 @@
 #SSH-KEYS
-##Description:It is a great convenience to be authoricated to server without entering pwd.
+##Description:
+It is a great convenience to be authoricated to server without entering pwd.
 ##Reference:[click](https://wiki.archlinux.org/index.php/SSH_keys_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 ##Solution
 1.produce keygen:
