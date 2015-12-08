@@ -11,7 +11,7 @@ It is a great convenience to be authoricated to server without entering pwd.
 <!--lang:bash-->
     mkdir ~/.ssh
     cd ~/.ssh
-    ssh-copy-id <user>@<ip or hostname>
+    copy-ssh-id
 3.login the remote-host
 <!--lang:bash-->
     chmod 700 ~/.ssh
