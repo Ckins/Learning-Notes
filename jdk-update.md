@@ -2,7 +2,7 @@
 
 ##Description
 As the project requires Oracle-JDk-1.7  
-I need to update 1.6 from 1.7  
+I need to update 1.6 from 1.7+  
   
 ##solution
 1.Down JDk and exctract to /usr/lib/jvm/jdk1.7.0_79  
@@ -16,6 +16,9 @@ I need to update 1.6 from 1.7
 3.Update the PATH (if you have set it in /etc/profile)   
 <!--lang:bash-->
     sudo vim /etc/profile
+    export JAVA_HOME=/home/...
+    export PATH=$JAVA_HOME/bin:$PATH
+    export CLASSPATH=.:$JAVA_HOME/lib:$JAVA_HOME/jre/lib:$CLASSPATH
 
 4.update-alternatives   
 <!--lang:bash-->
