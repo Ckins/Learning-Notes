@@ -1,1 +1,1 @@
-
+# notes for c++.
